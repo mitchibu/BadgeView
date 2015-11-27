@@ -1,0 +1,19 @@
+<jp.gr.java_conf.mitchibu.lib.badgeview.BadgeView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	style="?attr/actionButtonStyle"
+	app:badge_background="@drawable/badge"
+	app:badge_textSize="12dp"
+	app:badge_textColor="@android:color/white"
+	app:badge_gravity="right|top"
+	android:clickable="true"
+	android:padding="4dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ImageView
+		android:contentDescription="@null"
+		android:src="@mipmap/ic_launcher"
+		android:tint="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+</jp.gr.java_conf.mitchibu.lib.badgeview.BadgeView>

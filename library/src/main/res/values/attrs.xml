@@ -1,0 +1,13 @@
+<resources>
+	<declare-styleable name="BadgeView">
+		<attr name="badge_background" format="reference|color"/>
+		<attr name="badge_textSize" format="dimension"/>
+		<attr name="badge_textColor" format="color"/>
+		<attr name="badge_gravity">
+			<flag name="left" value="1"/>
+			<flag name="top" value="2"/>
+			<flag name="right" value="4"/>
+			<flag name="bottom" value="8"/>
+		</attr>
+	</declare-styleable>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="jp.gr.java_conf.mitchibu.badgeview.MainActivity">
+
+	<jp.gr.java_conf.mitchibu.lib.badgeview.BadgeView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		app:badge_background="@drawable/badge"
+		app:badge_textSize="12dp"
+		app:badge_textColor="@android:color/white"
+		app:badge_gravity="right|top"
+		android:id="@+id/test"
+		android:clickable="true"
+		android:padding="4dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Hello World!"/>
+	</jp.gr.java_conf.mitchibu.lib.badgeview.BadgeView>
+</RelativeLayout>
